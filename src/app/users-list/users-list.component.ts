@@ -104,11 +104,10 @@ export class UsersListComponent implements OnInit {
       phone: '024-648-3804',
       website: 'ambrose.net'
     }
-  ]
+  ];
 
   ngOnInit(): void {
   }
 
-  
 
 }
