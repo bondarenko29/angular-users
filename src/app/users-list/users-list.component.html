@@ -1,3 +1,13 @@
+<div>
+  <mat-form-field appearance="outline">
+    <mat-label>Сортировка пользователей</mat-label>
+    <mat-select>
+      <mat-option value="0">От А до Я</mat-option>
+      <mat-option value="1">От Я до А</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
 <mat-selection-list #users>
    <mat-list-option *ngFor="let user of usersList; let i=index"
    [ngClass]="{'gray': i%2}">
